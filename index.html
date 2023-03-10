@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador De Contacto</title>
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+    <script defer src="./objetos.js"></script>
+</head>
+<body>
+    
+
+    <div class="contenedor_imagen" id="foto">
+        
+    </div>
+    <div class="fond">
+        <div class="contenedor">
+            <h1>BUSCAR CONTACTO</h1>
+            <div class="contenedor_contenido">
+                <div class="porfin">
+                    <div class="nombres">
+                        <label for="m_name" id="nombre" >Nombre</label>
+                        <input type="text" name="nombre" id="m_name" class="cuad1">
+                    </div>
+                    <div class="propiedad">
+                        <p class="select">Criterio</p>
+                        <select name="seleccionar" id="m_dropdown"> 
+                            <option value=""></option>
+                            <option value="Apellido" id="apellido">Apellido</option>
+                            <option value="Numero" id="numero">Numero</option>
+                            <option value="Gustos" id="gustos">Gustos</option>
+                        </select>
+                    </div>
+        
+                    <div class="boton">
+                        <button class="botonn" onclick="validar()">Buscar</button>
+                        <button class="botonn"><a href="./agregar.html">Agregar</a> </button>
+                    </div>
+                </div>
+                  
+                <div class="result_imagen">
+                    <img id="imagen_perfil" class="imagen_resultado" src="./imagenes/perfil-de-usuario.webp" alt="">
+                </div>
+
+            </div>
+            <div class="resultado" id="contactos"> 
+
+            </div>
+        </div>
+       
+
+    </div>
+
+</body>
+</html>

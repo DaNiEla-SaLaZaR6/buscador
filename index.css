@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+}
+html,body{
+    height: 100vh;
+    width: 100vw; 
+}
+.fond{
+    height: 85vh;
+    width: 100vw;
+    background-image: url(./imagenes/subtle-prism.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_imagen{
+    height: 15%;
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.425);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.imagenes img{
+    width: 100px;
+}
+.contenedor{
+    height: 50%;
+    width: 60%;
+    border: solid 2px rgb(245, 239, 239);
+    background-color: rgb(107, 17, 129);
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+
+    font-size: 40px;
+    margin: 5px;
+}
+.contenedor_contenido{
+    height: 45%;
+
+    border: solid 1px rgb(244, 241, 241);
+    margin: 10px;
+    display: flex;
+    
+}
+.porfin{
+    height: 100%;
+    width: 230%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nombres{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+  
+    -webkit-text-stroke-width: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.cuad1{
+    height: 30px;
+    margin: 5px;
+    color: rgb(114, 12, 114);
+}
+.propiedad{
+    height: 30px;
+    width: 50%;
+    font-size: 20px;
+
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+}
+select{
+    height: 30px;
+    width: 100%;
+    color: rgb(98, 26, 156);
+    
+}
+option{
+    color: rgb(103, 6, 103);
+}
+.resultado{
+    height: 30%;
+    -webkit-text-stroke-width: 1px;
+    border: solid 1px rgb(248, 247, 245);
+    margin: 10px;
+}
+.boton{
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.botonn{
+    height: 35%;
+    width: 30%;
+    margin: 10px;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    background-color:violet ;
+ 
+    border: solid 1px blueviolet;
+}
+.botonn:hover{
+    background-color: rgba(238, 130, 238, 0.456);
+    color: black;
+}
+.result_imagen{
+    height: 100%;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_resultado{
+    height: 90%;
+    width: 200%;
+    border: solid 1px rgb(236, 233, 233);
+
+}
+img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
